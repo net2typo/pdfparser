@@ -19,7 +19,7 @@ $EM_CONF[$_EXTKEY] = [
     ],
     'autoload' => [
         'psr-4' => [
-            'Smalot\\PdfParser\\' => 'src/Smalot/PdfParser',
+            'Smalot\\PdfParser\\' => 'Classes',
         ],
     ],
 ];
