@@ -1,0 +1,44 @@
+{
+    "name": "smalot/pdfparser",
+    "version": "2.12.5",
+    "description": "Pdf parser library for TYPO3 CMS. Can read and extract information from pdf file.",
+    "keywords": ["typo3", "PDF", "text", "parser", "parse", "extract"],
+    "type": "typo3-cms-extension",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Sebastien MALOT",
+            "email": "sebastien@malot.fr"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/smalot/pdfparser/issues"
+    },
+    "homepage": "https://www.pdfparser.org",
+    "require": {
+        "php": ">=8.1",
+        "typo3/cms-core": "^11.5 || ^12.4 || ^13.4 || ^14.0",
+        "symfony/polyfill-mbstring": "^1.18",
+        "ext-zlib": "*",
+        "ext-iconv": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Smalot\\PdfParser\\": "src/Smalot/PdfParser/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PerformanceTests\\": "tests/Performance/",
+            "PHPUnitTests\\": "tests/PHPUnit/"
+        }
+    },
+    "config": {
+        "process-timeout": 1200
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "pdfparser"
+        }
+    }
+}

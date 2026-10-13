@@ -1,0 +1,31 @@
+# IDE and Environment
+/.idea/*
+/.vscode/*
+/coverage/*
+/vendor/*
+/xdebug/*
+/composer.phar
+composer.lock
+debug*
+
+# Dev and QA Tools Cache
+/.php-cs-fixer.cache
+/.phpunit.cache
+/.phpunit.result.cache
+
+# Upstream Development and Test Folders (Excluded from TYPO3 Extension Repo & TER)
+/samples/
+/tests/
+/dev-tools/
+/doc/
+/.github/
+
+# Upstream CI / Build Configs
+/.editorconfig
+/.php-cs-fixer.php
+/.scrutinizer.yml
+/phpstan.neon
+/phpunit*.xml
+/Makefile
+/alt_autoload.php-dist
+/CONTRIBUTING.md
