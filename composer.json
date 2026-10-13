@@ -13,7 +13,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/smalot/pdfparser/issues"
+        "issues": "https://github.com/net2typo/pdfparser/issues"
     },
     "homepage": "https://www.pdfparser.org",
     "require": {
@@ -26,12 +26,6 @@
     "autoload": {
         "psr-4": {
             "Smalot\\PdfParser\\": "src/Smalot/PdfParser/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "PerformanceTests\\": "tests/Performance/",
-            "PHPUnitTests\\": "tests/PHPUnit/"
         }
     },
     "config": {
