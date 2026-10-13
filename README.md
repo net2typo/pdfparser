@@ -108,5 +108,5 @@ Full official TYPO3 documentation is available in [`Documentation/Index.rst`](Do
 ## License & Credits
 
 - **Core Library**: [Sébastien Malot](https://github.com/smalot/pdfparser)
-- **TYPO3 Extension**: Net2typo
+- **TYPO3 Extension**: [NET2TYPO WEB SERVICES](mailto:support@net2typo.com)
 - **License**: [LGPL-3.0-or-later](LICENSE.txt)

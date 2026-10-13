@@ -25,7 +25,7 @@ Smalot PDF Parser for TYPO3
    en
 
 :Author:
-   Sebastien MALOT, Net2typo
+   NET2TYPO WEB SERVICES <support@net2typo.com>
 
 :License:
    LGPL-3.0-or-later
